@@ -98,9 +98,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- container for actual page content -->
   <div class="container" id="main-content">
 
-    <button id='editAComment' class="btn btn-default">editAComment</button>
-    <button id='postacomment' class="btn btn-default">postacomment</button>
-    <textarea id='commentarea' class="form-control" rows="5"></textarea>
+  
+    <textarea id='commentarea' class="form-control" rows="5" placeholder="Ask a question..."></textarea>
+    <button id='postacomment' class="btn btn-default">Post</button>
+    <button id='editAComment' class="btn btn-default">Edit</button>
 
   </div>
 
